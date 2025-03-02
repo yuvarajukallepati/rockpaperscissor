@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+text-align: center;
+}
+h1{
+    color:aliceblue;
+    font-size: 2rem;
+    background-color: black;
+    line-height: 4rem;
+    text-align: center;
+}
+/* this will only change the div size but not image so.*/
+.images{
+    height:160px;  
+    width:160px;
+    border-radius: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+   
+}
+.images:hover{
+    background-color: green;
+}
+
+/* this will change the size of the images.*/
+img{
+    height:140px;  
+    width:140px;
+    border-radius: 50%;
+    object-fit: cover;  /* this will set the image perfectly the way before it shrinked.*/
+    
+}
+.image-container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin:25px;
+   padding:10px;
+   gap:0.5rem;
+}
+
+.score-card{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin:25px;
+}
+
+#val1,#val2{
+    font-size: 3rem;
+}
+
+.msg{
+   color:aliceblue;
+   background-color: black;
+   font-size:2rem;
+   display:inline-block;
+   /* justify-content: center; */
+   border-radius: 4px;
+   padding: 10px;
+   
+}
+
